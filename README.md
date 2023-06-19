@@ -22,6 +22,7 @@ Feel free to contribute however you want, be it code or new sounds.
 4. Look for `"sounds"`
 5. Add a key-value pair in the following format: `"name": "sounds/filename"`. Acceptable extension are MP3 and WAV
 6. Add the sound file to the `sounds` directory
+7. Commit, push, and create a pull request
 
 ### Code
 
