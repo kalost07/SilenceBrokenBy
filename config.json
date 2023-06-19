@@ -4,7 +4,17 @@
         "nani?!": "sounds/nani.mp3",
         "emotional damage": "sounds/emotional_damage.mp3",
         "metal pipe": "sounds/metal_pipe.mp3",
-        "bruh": "sounds/bruh.mp3"
+        "bruh": "sounds/bruh.mp3",
+        "among us": "sounds/amongus.mp3",
+        "and his name is john cena": "sounds/and_his_name_is_john_cena.mp3",
+        "elevator music": "sounds/elevator_music.mp3",
+        "fart with reverb": "sounds/fart_with_reverb.mp3",
+        "roblox death": "sounds/roblox_death_sound_effect.mp3",
+        "sad violin": "sounds/sad_violin.mp3",
+        "spongebob fail": "sounds/spongebob_fail.mp3",
+        "vine boom": "sounds/vine_boom.mp3",
+        "what bottom text": "sounds/what_bottom_text.mp3",
+        "creeper hiss": "sounds/creeper.mp3"
     },
     "base_odds": 0.076,
     "rest_period": 100,
