@@ -1,10 +1,7 @@
 import threading
 import datetime
-from math import log, ceil
-
 import roll
-
-interval = 1
+from config import config
 
 
 def timePrint(dif: datetime.timedelta):
@@ -20,7 +17,7 @@ def startTimer():
     roll.roll()
 
 
-numdraws = ceil(log(0.5, 1 - roll.odds))
-print("Draws for 50% chance: ", numdraws)
+interval = config["interval"]
+print("Begin")
 start = datetime.datetime.now()
 startTimer()

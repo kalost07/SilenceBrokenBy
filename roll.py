@@ -1,17 +1,23 @@
-import json
-import os
+from config import config
 from playsound import playsound
 import random
 
 
 def roll():
-    if random.random() < odds:
+    global curr_odds
+    print(curr_odds)
+    if curr_odds < base_odds:
+        curr_odds += base_odds / rest_period
+        curr_odds = min(curr_odds, base_odds)
+
+    if random.random() < curr_odds:
+        curr_odds = base_odds / rest_period
         name, file = random.choice(list(sounds.items()))
-        # print("  playing", name)
+        print("  playing", name)
         playsound(file)
 
 
-f = open("config.json")
-config = json.load(f)
 sounds = config["sounds"]
-odds = config["odds"]
+base_odds = config["base_odds"]
+rest_period = config["rest_period"]
+curr_odds = base_odds

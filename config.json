@@ -6,5 +6,7 @@
         "metal pipe": "sounds/metal_pipe.mp3",
         "bruh": "sounds/bruh.mp3"
     },
-    "odds": 0.0076
+    "base_odds": 0.076,
+    "rest_period": 100,
+    "interval": 1
 }
