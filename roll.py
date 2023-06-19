@@ -5,7 +5,6 @@ import random
 
 def roll():
     global curr_odds
-    print(curr_odds)
     if curr_odds < base_odds:
         curr_odds += base_odds / rest_period
         curr_odds = min(curr_odds, base_odds)
@@ -13,8 +12,8 @@ def roll():
     if random.random() < curr_odds:
         curr_odds = base_odds / rest_period
         name, file = random.choice(list(sounds.items()))
-        print("  playing", name)
         playsound(file)
+        print("  playing", name)
 
 
 sounds = config["sounds"]
