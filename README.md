@@ -4,11 +4,16 @@ This project plays a random sound at random intervals. Pretty fun, right?
 
 # How it works
 
-Every second, the program rolls to see if it will play something. If the roll is successful, it will play a random file from the ones specified in [config.json](config.json). The chance for success for every roll is also located in [config.json](config.json), with the key "odds".
+Every second, the program rolls to see if it will play something. If the roll is successful, it will play a random file from the ones specified in [config.json](config.json).
 
 ## How to use
 
 Just download the latest release from the side and run `start.bat`. It's that easy.
+
+If you want to modify the config, here are the items:
+- `"base_odds"` represents the initial chance that a sound will be played. It should be between 0 and 1.
+- `"rest_period"` represents for how many cycles the odds will be reduced after a sound is played.
+- `"interval"` represents the time between cycles, in seconds.
 
 ## How to contribute
 
