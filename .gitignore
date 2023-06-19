@@ -1,2 +1,4 @@
 .venv/
-/start.bat
+__pycache__/
+logs/
+.vscode/

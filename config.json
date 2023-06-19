@@ -1,0 +1,10 @@
+{
+    "sounds": {
+        "megalovania": "sounds/megalovania.mp3",
+        "nani?!": "sounds/nani.mp3",
+        "emotional damage": "sounds/emotional_damage.mp3",
+        "metal pipe": "sounds/metal_pipe.mp3",
+        "bruh": "sounds/bruh.mp3"
+    },
+    "odds": 0.0076
+}
